@@ -1,0 +1,99 @@
+/**
+ * PiCode Prog — Monospaced Developer Programming Font
+ * Developed by Progressive Innovation LAB (PiLAB)
+ * https://pilab.hu
+ *
+ * Webfont CSS Bundle
+ */
+
+/* ==========================================================================
+   PiCode Prog — Lightweight Web Editions (~33 KB per style, instant loading)
+   ========================================================================== */
+
+@font-face {
+  font-family: 'PiCode Prog';
+  src: url('../fonts/PiCodeProg-Web-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PiCode Prog';
+  src: url('../fonts/PiCodeProg-Web-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PiCode Prog';
+  src: url('../fonts/PiCodeProg-Web-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PiCode Prog';
+  src: url('../fonts/PiCodeProg-Web-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ==========================================================================
+   PiCode Prog Complete — Full 4,288 Glyph Edition with Nerd Font Icons (~1.1 MB)
+   ========================================================================== */
+
+@font-face {
+  font-family: 'PiCode Prog Complete';
+  src: url('../fonts/PiCodeProg-Regular.woff2') format('woff2'),
+       url('../fonts/PiCodeProg-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PiCode Prog Complete';
+  src: url('../fonts/PiCodeProg-Bold.woff2') format('woff2'),
+       url('../fonts/PiCodeProg-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PiCode Prog Complete';
+  src: url('../fonts/PiCodeProg-Italic.woff2') format('woff2'),
+       url('../fonts/PiCodeProg-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PiCode Prog Complete';
+  src: url('../fonts/PiCodeProg-BoldItalic.woff2') format('woff2'),
+       url('../fonts/PiCodeProg-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ==========================================================================
+   Utility Classes
+   ========================================================================== */
+
+.font-picode-prog {
+  font-family: 'PiCode Prog', 'PiCode Prog Complete', monospace;
+  font-feature-settings: 'calt' 1, 'liga' 1;
+  text-rendering: optimizeLegibility;
+}
+
+.font-picode-prog-complete {
+  font-family: 'PiCode Prog Complete', monospace;
+  font-feature-settings: 'calt' 1, 'liga' 1;
+  text-rendering: optimizeLegibility;
+}
